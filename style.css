@@ -2,26 +2,25 @@
   scroll-behavior: smooth;
 }
 .navbg {
-  background-image: url(slike/navbg.jpg);
+  background-image: url(slike/blurovanbg.jpg);
   background-size: cover;
 }
-
 .navbar-nav .nav-item {
   margin-right: 30px; 
 }
-
+.navlogo{
+    color: white;
+}
 .nav-link {
   font-weight: bolder;
 }
 .one{
   background-image: url(slike/amsterdambg.jpg);
-  
 }
 .BestSeller {
   text-align: center;
   margin-top: 5px;
   font-weight: bolder;
-  
 }
 
 .card:hover { 
@@ -47,7 +46,7 @@
 .inner-container{
     width: 55%;
     float: right;
-    background-color: whitesmoke;
+    background-image: url(slike/blurovanbg.jpg);
     padding: 150px;
     border-radius: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -63,9 +62,13 @@
     font-size: 30px;
     font-weight: 900;
 }
+#aus{
+    color: whitesmoke;
+    text-decoration: underline;
+}
 
 .text{
-    font-size: 13px;
+    font-size: 20px;
     color: #545454;
     line-height: 30px;
     text-align: justify;
@@ -76,7 +79,7 @@
     display: flex;
     justify-content: space-between;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 25px;
 }
 
 @media screen and (max-width:1200px){
@@ -105,23 +108,25 @@
 }
 /*/odavde ide contact forme/*/
 #contact{
-    background-color:#f1f1f1;
+    background-color: #ffa73c;
     font-family: 'Roboto', sans-serif;
 }
 
 #contact .well{
-    margin-top:30px;
     border-radius:0;
 }
 
 #contact .form-control{
     border-radius: 0;
     border:2px solid #1e1e1e;
+    margin-top: 10px;
 }
 
 #contact button{
-    border-radius:0;
-    border:2px solid #1e1e1e;
+    border-radius:6px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px ;
   }
 
 
@@ -134,4 +139,32 @@
         margin-bottom: 15px;
     }
     
+}
+.footer{
+  background-color: #2e3d7c;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
