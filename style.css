@@ -1,0 +1,137 @@
+* {
+  scroll-behavior: smooth;
+}
+.navbg {
+  background-image: url(slike/navbg.jpg);
+  background-size: cover;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 30px; 
+}
+
+.nav-link {
+  font-weight: bolder;
+}
+.one{
+  background-image: url(slike/amsterdambg.jpg);
+  
+}
+.BestSeller {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bolder;
+  
+}
+
+.card:hover { 
+  transform: scale(1.05);
+  transition: transform 0.3s ease; 
+}
+
+@media (max-width: 768px) {
+  .col-12.col-md-6.col-lg-4 {
+      margin-bottom: 20px;
+  }
+}
+
+/* About Us sekcija */
+.about-section{
+    background: url(slike/aboutusbg.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: whitesmoke;
+    padding: 150px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.inner-container :hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease; 
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.offer{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+/*/odavde ide contact forme/*/
+#contact{
+    background-color:#f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+  }
+
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
+}
